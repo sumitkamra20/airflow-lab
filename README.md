@@ -3,6 +3,17 @@
 > [!WARNING]  
 > For internal use only. Refer to [main curriculum guide](https://github.com/foundry-ai-academy/fa-c001-onboarding/blob/main/course_content_overview.md) for detailed learning objectives and assessment criteria.
 
+- [Module 1 Week 4 - \[TODO: Topic Name\] (Trainer Guide)](#module-1-week-4---todo-topic-name-trainer-guide)
+  - [🎯 Teaching Objectives](#-teaching-objectives)
+  - [📑 Session Resources](#-session-resources)
+  - [🛠️ Pre-session Preparation](#️-pre-session-preparation)
+  - [⏱️ Session Timeline](#️-session-timeline)
+  - [🔍 Key Teaching Points](#-key-teaching-points)
+  - [📝 Assessment Points](#-assessment-points)
+  - [🚨 Known Issues](#-known-issues)
+  - [📊 Progress Tracking](#-progress-tracking)
+  - [🔄 Post-session Tasks](#-post-session-tasks)
+
 ## 🎯 Teaching Objectives
 
 TODO: Add teaching objectives
