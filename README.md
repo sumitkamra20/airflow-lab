@@ -16,7 +16,7 @@
 
 ## 🎯 Teaching Objectives
 
-TODO: Add teaching objectives
+Students will learn how to use Apache Airflow to orchestrate data workflows on Snowflake, focusing on authentication, task dependencies, dynamic task generation, and notifications.
 
 ## 📑 Session Resources
 
@@ -26,11 +26,7 @@ TODO: Add teaching objectives
 
 ## 🛠️ Pre-session Preparation
 
-1. **Environment Check:**
-   TODO: Add environment check items
-
-2. **Common Issues:**
-   TODO: Add common issues
+Docker and Python (3.9 and above) installed
 
 ## ⏱️ Session Timeline
 
@@ -46,13 +42,28 @@ T1:15 - T1:45 | TODO: Session Block 4 (30m)
 
 ## 🔍 Key Teaching Points
 
-TODO: Add key teaching points
+Airflow Operator, TaskFlow API
+
+Branch, sensors, bash
+
+Dynamics Task
+
+Notification, callbacks
+
 
 ## 📝 Assessment Points
 
-Critical areas to evaluate:
+This lab exercise consists of five tasks:
 
-TODO: Add assessment points
+1. Airflow Variable: Authenticate with Snowflake - Use Airflow variables to store credentials and create a table.
+
+2. Airflow Connection: Insert data using Airflow Connection - Shift to using Airflow’s built-in connection manager.
+
+3. Airflow Sensor: Implement a sensor - Ensure data file is presented before parsing and inserting to table.
+
+4. Notification: send a Discord message using webhool upon success (and failure) - Integrate notifications into the @dag API.
+
+5. Dag design: Putting all tasks together and test run.
 
 ## 🚨 Known Issues
 
@@ -68,4 +79,6 @@ TODO: Add progress tracking metrics
 
 ## 🔄 Post-session Tasks
 
-TODO: Add post-session tasks
+- Review student's homework
+- Document common implementation challenge
+- Update lab materials based on feedback
