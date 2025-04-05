@@ -22,7 +22,7 @@ Students will learn how to use Apache Airflow to orchestrate data workflows on S
 
 - [Lab Guide](lab/lab-m1w4.md)
 - [Solution Repository](solution/)
-- [Technical Setup Guide](setup/)
+- [Technical Setup Guide](setup/README.md)
 
 ## 🛠️ Pre-session Preparation
 
@@ -32,12 +32,15 @@ Docker and Python (3.9 and above) installed
 
 Total Duration: 1.5 hours (plus 15min break)
 
+Students should try to set up Airflow on Docker before the class. 
 ```bash
-T0:00 - T0:15 | TODO: Session Block 1 (15m)
-T0:15 - T0:40 | TODO: Session Block 2 (25m)
+T0:00 - T0:10 | Airflow Docker Setup (10m)
+T0:10 - T0:30 | Airflow Snowflake connection (20m)
+T0:30 - T0:40 | Airflow Sensor (10m)
 T0:40 - T0:55 | Break (15m)
-T0:55 - T1:15 | TODO: Session Block 3 (20m)
-T1:15 - T1:45 | TODO: Session Block 4 (30m)
+T0:55 - T1:05 | Airflow Sensor Test (10m)
+T1:05 - T1:20 | Airflow successful notification (15m)
+T1:20 - T1:45 | Dags design & Wrap up (25m)
 ```
 
 ## 🔍 Key Teaching Points
@@ -69,13 +72,18 @@ This lab exercise consists of five tasks:
 
 Document any known technical issues or limitations:
 
-TODO: Add known issues
+- Airflow Docker Setup
 
 ## 📊 Progress Tracking
 
 Track these metrics during the session:
 
-TODO: Add progress tracking metrics
+- Airflow Docker Setup.
+- Airflow Access to Snowflake using Username password.
+- Airflow Access to Snowflake using connection manager.
+- Airflow sensor successfully set up and triggered.
+- Success notification appears on Discord server
+- All tasks are connected in dags.
 
 ## 🔄 Post-session Tasks
 

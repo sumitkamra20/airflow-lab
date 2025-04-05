@@ -71,6 +71,9 @@ The second one is a callback function, which will be placed in DAG config
 
 hint: the bash command to send notification to discord server is
 curl -H 'Content-Type: application/json' -X POST -d '{"content": "This string will be sent to discord channel"} $discord_webwooh
+
+Also since there are multiple students using the same Discord webhook, it's a good idea to 
+include your name in the message to distinguise from others.
 '''
 
 
@@ -86,7 +89,7 @@ def discord_on_dag_failure_callback(context):
     schedule_interval=None,
     start_date=datetime(2025, 3, 1),
     catchup=False,
-    # TODO 5
+    # TODO 5: failure_callback
 )
 def airflow_lab():
     '''
