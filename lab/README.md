@@ -27,8 +27,9 @@ data file that triggers sensor in `lab_dag`.
 Once you finished with airflow sensor (task #3) you can trigger `lab_prep` from the Airflow UI.
 
 ---
-© 2024 Foundry Data & AI Academy.
-All rights reserved.
+
+© 2024 Foundry Data & AI Academy.  
+All rights reserved.  
 This material is confidential and proprietary to Foundry Data & AI Academy. It may not be reproduced, transmitted, or stored, in whole or in part, in any form or by any means without written permission from Foundry Data & AI Academy.
 
 ![Foundry Data & AI Academy Logo](https://raw.githubusercontent.com/foundry-ai-academy/fa-cdn/1.0.0/images/FoundryAI_academy_logo_symbol_yellow_space.png)
