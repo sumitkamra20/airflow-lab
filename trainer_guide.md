@@ -1,11 +1,9 @@
-![Foundry Data & AI Academy Logo](https://raw.githubusercontent.com/foundry-ai-academy/fa-cdn/1.0.0/images/FoundryAI_academy_logo_on_yellow_space.png)
-
-# Module 01 Week 04 - Workflow Setup Lab (Airflow) (Trainer Guide)
+# Module 1 Week 4 - (Trainer Guide)
 
 > [!WARNING]  
 > For internal use only. Refer to [main curriculum guide](https://github.com/foundry-ai-academy/fa-c001-onboarding/blob/main/course_content_overview.md) for detailed learning objectives and assessment criteria.
 
-- [Module 01 Week 04 - Workflow Setup Lab (Airflow) (Trainer Guide)](#module-01-week-04---workflow-setup-lab-(airflow)-trainer-guide)
+- [Module 1 Week 4 - \[TODO: Topic Name\] (Trainer Guide)](#module-1-week-4---todo-topic-name-trainer-guide)
   - [🎯 Teaching Objectives](#-teaching-objectives)
   - [📑 Session Resources](#-session-resources)
   - [🛠️ Pre-session Preparation](#️-pre-session-preparation)
@@ -18,85 +16,77 @@
 
 ## 🎯 Teaching Objectives
 
-This lesson covers workflow setup lab (airflow). As a trainer, focus on:
-
-- Practical implementation of key concepts
-- Common pitfalls and troubleshooting
-- Infrastructure setup validation
+Students will learn how to use Apache Airflow to orchestrate data workflows on Snowflake, focusing on authentication, task dependencies, dynamic task generation, and notifications.
 
 ## 📑 Session Resources
 
-- [Lab Guide](lab/lab-m01w04.md)
+- [Lab Guide](lab/lab-m1w4.md)
 - [Solution Repository](solution/)
-- [Technical Setup Guide](setup/)
+- [Technical Setup Guide](setup/README.md)
 
 ## 🛠️ Pre-session Preparation
 
-1. **Environment Check:**
-   - Verify all required services are running
-   - Test connection strings
-   - Validate sample datasets
-
-2. **Common Issues:**
-   - Database connection timeouts
-   - Permission settings
-   - Memory constraints
+Docker and Python (3.9 and above) installed
 
 ## ⏱️ Session Timeline
 
-Total Duration: 3.0 hours
+Total Duration: 1.5 hours (plus 15min break)
 
+Students should try to set up Airflow on Docker before the class. 
 ```bash
-T0:00 - T1:00 | Prerequisites & Environment Setup
-T1:00 - T1:15 | Break
-T1:15 - T2:00 | Core Concepts Implementation
-T2:00 - T2:30 | Hands-on Practice
-T2:30 - T2:45 | Advanced Topics
-T2:45 - T3:00 | Review & Q&A
+T0:00 - T0:10 | Airflow Docker Setup (10m)
+T0:10 - T0:50 | Airflow Snowflake connection (40m)
+T0:50 - T1:20 | Airflow Sensor (30m)
+T1:20 - T1:35 | Break (15m)
+T1:35 - T2:00 | Airflow successful notification (25m)
+T2:00 - T2:45 | Dags design & Callbacks (45m)
+T2:45 - T3:00 | Wrap Up
 ```
 
 ## 🔍 Key Teaching Points
 
-- Emphasize error handling practices
-- Focus on performance optimization
-- Highlight scalability considerations
+Airflow Operator, TaskFlow API
+
+Branch, sensors, bash
+
+Dynamics Task
+
+Notification, callbacks
+
 
 ## 📝 Assessment Points
 
-Critical areas to evaluate:
+This lab exercise consists of five tasks:
 
-- Code organization
-- Error handling implementation
-- Documentation quality
-- Testing approach
+1. Airflow Variable: Authenticate with Snowflake - Use Airflow variables to store credentials and create a table.
+
+2. Airflow Connection: Insert data using Airflow Connection - Shift to using Airflow’s built-in connection manager.
+
+3. Airflow Sensor: Implement a sensor - Ensure data file is presented before parsing and inserting to table.
+
+4. Notification: send a Discord message using webhool upon success (and failure) - Integrate notifications into the @dag API.
+
+5. Dag design: Putting all tasks together and test run.
 
 ## 🚨 Known Issues
 
 Document any known technical issues or limitations:
 
-1. Memory usage with large datasets
-2. Specific version compatibility requirements
-3. Network bandwidth considerations
+- Airflow Docker Setup
 
 ## 📊 Progress Tracking
 
 Track these metrics during the session:
 
-- Setup completion rate
-- Common blockers
-- Time spent on each section
+- Airflow Docker Setup.
+- Airflow Access to Snowflake using Username password.
+- Airflow Access to Snowflake using connection manager.
+- Airflow sensor successfully set up and triggered.
+- Success notification appears on Discord server
+- All tasks are connected in dags.
 
 ## 🔄 Post-session Tasks
 
-1. Document any new issues encountered
-2. Update solution guide if needed
-3. Review and update technical requirements
-4. Push any hotfixes to the repository
-
----
----
-© 2024 Foundry Data & AI Academy.
-All rights reserved.
-This material is confidential and proprietary to Foundry Data & AI Academy. It may not be reproduced, transmitted, or stored, in whole or in part, in any form or by any means without written permission from Foundry Data & AI Academy.
-
-![Foundry Data & AI Academy Logo](https://raw.githubusercontent.com/foundry-ai-academy/fa-cdn/1.0.0/images/FoundryAI_academy_logo_symbol_yellow_space.png)
+- Review student's homework
+- Document common implementation challenge
+- Update lab materials based on feedback

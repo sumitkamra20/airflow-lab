@@ -4,8 +4,8 @@
 
 ## Lesson Content
 
-1. [Lab Guide](./lab)
-1. [Technical Setup Guide](./setup)
+1. [Lab Guide](./lab/README.md)
+1. [Technical Setup Guide](./setup/README.md)
 
 Total Duration: 3.0 hours (180 minutes)
 
