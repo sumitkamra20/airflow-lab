@@ -12,9 +12,7 @@ Go through the following command prompts to initiate Airflow on Docker
 Make sure you're at the project lab directory
 
 ```Shell
-mkdir logs
-mkdir plugins
-mkdir configs
+mkdir dags
 set AIRFLOW_UID=50000
 
 docker compose up airflow-init
@@ -43,7 +41,7 @@ You can make changes to your dags code when the docker container is running. It 
 codes and update the UI momentarily as soon as you save it. Unless you need to update Airflow configs, 
 plugins, package providers (which you don't for this lab), there's no need to restart the container.
 
-To exit the container. Either Cmd/Ctrl+C on your terminal or stop it from your Docker Desktop UI.
+To exit the container. Either Ctrl+C on your terminal or stop it from your Docker Desktop UI.
 
 
 
