@@ -18,8 +18,6 @@ Before attending this class, please ensure you have completed:
 In the next lesson, we'll focus on Free time to prep for capstone / module test.
 
 ---
----
-
 © 2024 Foundry Data & AI Academy.  
 All rights reserved.  
 This material is confidential and proprietary to Foundry Data & AI Academy. It may not be reproduced, transmitted, or stored, in whole or in part, in any form or by any means without written permission from Foundry Data & AI Academy.
